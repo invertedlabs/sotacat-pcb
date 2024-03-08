@@ -481,7 +481,7 @@
       "plot": "gerbers",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "sotacat_v0.3.notracks.trrsedge.step",
+      "step": "sotacatv0.2_reverseplug.step",
       "svg": "",
       "vrml": ""
     },
