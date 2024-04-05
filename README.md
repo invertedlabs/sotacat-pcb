@@ -1,14 +1,14 @@
 # SOTAcat PCB
 
-This project creates a SOTAcat PCB designed in [KiCad](https://www.kicad.org) and compatible with Brian AB6D's SOTAcat and SOTAMAT (pronounced "Sota-Mate") software for iOS and Android which can interface with that software to command an Elecraft KX2 or KX3 to transmit SOTA or POTA spots from the field via the FT8 spotting networks.
+This project creates a SOTAcat PCB designed in [KiCad](https://www.kicad.org) and compatible with Brian AB6D's [SOTAcat](https://github.com/SOTAmat/SOTAcat) and [SOTAMAT](https://sotamat.com/) ("SOTA-Mate") web service and software. Brian provides a cloud service and iOS and Android which can interface with SOTAcat hardware to command an Elecraft KX2 or KX3 to transmit SOTA or POTA spots from the field via the FT8 spotting networks.  [The SOTAcat software](https://github.com/SOTAmat/) by Brian and Jeff KC6X also has other great features like a web interface that polls SOTA and POTA spots from their respective databases and commands the KX2 or KX3 to the spot frequency and mode with a single click.
 
-[Brian's SOTAcat software](https://github.com/SOTAmat/) also has other great features like a web interface that polls SOTA and POTA spots from their respective databases and commands the KX2 or KX3 to the spot frequency and mode with a single click.
+This repository contains hardware files only. These files are available in zipped gerber form under "releases" which can be uploaded to PCB board manufacturers like [OshPark](https://www.oshpark.com), [JLCPCB](https://www.jlcpcb.com), or [PCBWay](https://www.pcbway.com) for quick turn around prototype-quantity builds.
 
-This repository contains hardware files only. These files are available in gerber form under "releases" which can be uploaded to PCB board manufacturers like [OshPark](https://www.oshpark.com), [JLCPCB](https://www.jlcpcb.com), or [PCBWay](https://www.pcbway.com) for quick turn around prototype-quantity builds.
+# Attribution
 
-A lot of folks from the SOTA community have contributed to this project.  For full attribution, see [the attribution list](https://github.com/SOTAmat/SOTAcat?tab=readme-ov-file#attribution) in the software repository.
+A lot of folks from the SOTA community have contributed to this project.  For full attribution, see [the attribution list](https://github.com/SOTAmat/SOTAcat?tab=readme-ov-file#attribution) in the software repository. 
 
-Specifically, this project wouldn't have been possible without the great SOTAmat software by Brian Mathews AB6D, the SOTAcat software by Brian and Jeff Kowalski KC6X, and feedback from Rex Vokey KE6MT during the design phase.
+Specifically, this project wouldn't have been possible without the great SOTAmat software by Brian Mathews AB6D, the SOTAcat software authored primarily by Brian and Jeff Kowalski KC6X, and timely feedback from Brian, Jeff, and Rex Vokey KE6MT during the design phase.
 
 # Bill of Materials
 
@@ -40,3 +40,6 @@ v0.3 updates:
 
 v0.2 was a very quick turn PCB that translated AB6D's schematic to a PCB. v0.2 has some issues, notably that the TRRS R2 and Shield pins need to be tied together for working serial, and EFUSEs need to be set on the XIAO ESP32-C3 to limit the debug output on the pin used for KXx serial communications. With these changes, the device is very functional.
 
+# Warranties (and lack thereof)
+
+No warranties are expressed or implied by Jutin McAllister or InvertedLabs, LLC for the hardware in this repository. All files and information are provided as is, with all faults, and may not be suitable for any purpose.  While a best-faith effort has been taken to test these designs, they may cause damage to connected equipement. Some designs may be untested, and may not work as provided. Lithium batteries are inherently dangerous and may cause personal injury and/or damage to property, even when used correctly. Always monitor batteries during use, and store safely per the battery manufacturer's recommendations. Proceed with caution, use at your own risk.
