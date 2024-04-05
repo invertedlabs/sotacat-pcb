@@ -261,8 +261,8 @@
 	)
 	(pad "13" thru_hole circle
 		(at 11.3 -9.8)
-		(size 4 4)
-		(drill 3)
+		(size 3.5 3.5)
+		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "24f82a28-b647-4d60-97d0-204472e551eb")
@@ -283,8 +283,8 @@
 	)
 	(pad "15" thru_hole circle
 		(at 4.85 -10)
-		(size 4 4)
-		(drill 3)
+		(size 3.5 3.5)
+		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "a0dcee79-a426-49a0-88b9-8147d2acd556")
@@ -453,7 +453,7 @@
 		)
 		(polygon
 			(pts
-				(xy 9.779 -11.303) (xy 12.827 -11.303) (xy 12.827 -8.255) (xy 9.779 -8.255)
+				(xy 10.1 -11) (xy 12.5 -11) (xy 12.5 -8.6) (xy 10.1 -8.6)
 			)
 		)
 	)
