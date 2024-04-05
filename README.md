@@ -8,7 +8,7 @@ This repository contains hardware files only. These files are available in zippe
 
 A lot of folks from the SOTA community have contributed to this project.  For full attribution, see [the attribution list](https://github.com/SOTAmat/SOTAcat?tab=readme-ov-file#attribution) in the software repository. 
 
-Specifically, this project wouldn't have been possible without the great SOTAmat software by Brian Mathews AB6D, the SOTAcat software authored primarily by Brian and Jeff Kowalski KC6X, and timely feedback from Brian, Jeff, and Rex Vokey KE6MT during the design phase.
+Specifically, this project wouldn't have been possible without the great SOTAmat software and original SOTAcat concetp by Brian Mathews AB6D, the SOTAcat software authored primarily by Brian and Jeff Kowalski KC6X, and timely feedback from Brian, Jeff, and Rex Vokey KE6MT during the design phase.
 
 # Bill of Materials
 
