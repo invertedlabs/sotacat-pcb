@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "items_not_allowed|131988000|74502000|e5f760d1-8244-4ca2-9827-ef8c478c64e4|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|137382500|75433500|c5961890-aee3-40b5-947c-2b8103e8cbfa|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|136225000|87730000|512996b5-7131-437f-8d7f-7c4ea23a0f51|3fc2e11b-5758-4d1b-b93c-d02f5a778c66|F.Cu",
+        "starved_thermal|140875000|101750000|512996b5-7131-437f-8d7f-7c4ea23a0f51|729c0dc4-3ea3-40e9-a249-f66bcb3e3043|B.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -491,7 +496,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "sotacat_v0.3.step",
