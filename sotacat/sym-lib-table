@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "XIAO-ESP32C3")(type "KiCad")(uri "${KIPRJMOD}/../Seeeduino xiao ESP32C3 KiCAD Library/MOUDLE-SEEEDUINO-XIAO-ESP32C3.kicad_sym")(options "")(descr ""))
   (lib (name "TENSITY-AUDIO")(type "KiCad")(uri "${KIPRJMOD}/../Tensity-54-00035/54-00035.kicad_sym")(options "")(descr ""))
+  (lib (name "sotacat-lib")(type "KiCad")(uri "C:/Users/justinm/dev/sotacat-pcb/sotacat-lib/sotacat-lib.kicad_sym")(options "")(descr ""))
 )
